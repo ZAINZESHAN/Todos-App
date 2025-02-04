@@ -4,7 +4,7 @@ import ListItem from "@/components/ListItem"
 
 export default async function Todos() {
 
-    let res = await fetch("http://localhost:3004/api/todos", {
+    let res = await fetch("http://localhost:3000/api/todos", {
         cache: "no-cache"
     })
     res = await res.json()
